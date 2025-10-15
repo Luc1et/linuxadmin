@@ -66,7 +66,7 @@ Skupina `wheel` je pro uživatele, kteří mají přístup k admistrátorským
 oprávněním. Můžou tak např. přidávat další uživatele.
 
 Příkaz `groups` bere i argumenty – uživatele, jejichž skupiny vypíše.
-Koukni se třeba, že uživate `root` není ve skupině `wheel`:
+Koukni se třeba, že uživatel `root` není ve skupině `wheel`:
 
 ```console
 $ groups hanka root
@@ -188,7 +188,7 @@ ke čtení obsahu.
 
 ### Zápis – `w`
 
-Druhé písmenko udává právo ke čtení.
+Druhé písmenko udává právo k zápisu.
 Když je zde místo `w` pomlčka, vlastník do souboru nesmí zapisovat.
 Toto oprávnění se dá změnit pomocí `chmod -w` a `chmod +w`:
 
@@ -331,7 +331,7 @@ $ chmod u=rw,g=r,o= pizza.cfg
 ```
 
 
-Když so podíváš na svůj domovský adresář, zjistíš že to do něj nikdo jiný
+Když se podíváš na svůj domovský adresář, zjistíš že ti do něj nikdo jiný
 nevleze: `rwx` je tu jen pro tebe.
 
 ```console
