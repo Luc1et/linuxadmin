@@ -62,7 +62,7 @@
    chmod g+s /home/spolecne
 5. Ve složce `/home/spolecne` vytvoř soubor `zkouska.txt` jako uživatel `eva`.
 6. Ověř, že soubor má skupinu `studenti`.
-7. Přepni se na uživatele `adam` a zkontroluj, že může tento soubor číst i upravovat.
+7. Přepni se na uživatele `petr` a zkontroluj, že může tento soubor číst i upravovat.
 
 ### Úkol 4: Struktura „Školní tým“
 
